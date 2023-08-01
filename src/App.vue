@@ -1,5 +1,6 @@
 <template>
   <TheHeader />
+  <RouterView />
   <TheFooter />
 </template>
 
@@ -21,5 +22,6 @@ export default {
 {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 </style>
